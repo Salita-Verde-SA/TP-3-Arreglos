@@ -1,9 +1,9 @@
-rta = "s"
+salida = "s"
 lista = []
 
-while rta == "s":
-    rta = input("Desea agregar un elemento? S/N")
-    if rta == "s":
+while salida == "s":
+    salida = input("Desea agregar un elemento? S/N")
+    if salida == "s":
         elem = input("Ingrese el numero que desea agregar a la lista: ")
         lista.append(elem)
 

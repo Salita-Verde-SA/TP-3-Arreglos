@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 lista = []
 
 while True:
@@ -18,3 +19,5 @@ for i in range(0,len(lista)):
     lista[i] = lista[i]*multiplicador
 
 print(f"La lista final es {lista}")
+=======
+>>>>>>> 90379e7cec95598237dc0efac3ffe75639a11f03

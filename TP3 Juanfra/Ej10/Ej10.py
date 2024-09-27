@@ -13,3 +13,4 @@ while rta == "s":
         elem = input("Ingrese el numero que desea agregar a la lista: ")
         lista.append(elem)
 eliminarxInd(lista)
+s
