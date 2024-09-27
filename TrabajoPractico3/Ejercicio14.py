@@ -27,7 +27,5 @@ matriz = crearMatriz(filas, columnas)
 
 rellenarMatriz(filas, columnas, matriz)
 
-for i in range(0,filas):
+for i in range(0, filas):
     pprint(f"{matriz[i]}")
-
-

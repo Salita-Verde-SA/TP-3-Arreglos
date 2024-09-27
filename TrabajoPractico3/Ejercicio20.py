@@ -4,11 +4,12 @@ def crear_matriz():
 
 def matriz_ident():
     for i in range(filas):
-        matriz[i][i]=1
+        matriz[i][i] = 1
+
 
 filas = int(input("Ingrese el tamaño de la matriz identidad: "))
-columnas= filas
-matriz=crear_matriz()
+columnas = filas
+matriz = crear_matriz()
 matriz_ident()
 for i in matriz:
     print(i)

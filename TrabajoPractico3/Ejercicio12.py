@@ -16,10 +16,10 @@ while True:
         break
     else:
         print("Las listas no tienen la misma longitud, deberá crearlas de nuevo.")
-     
+
 listaFinal = []
-        
-for i in range(0,len(lista1)):
-    listaFinal.append(lista1[i]+lista2[i])
-    
+
+for i in range(0, len(lista1)):
+    listaFinal.append(lista1[i] + lista2[i])
+
 print(listaFinal)
