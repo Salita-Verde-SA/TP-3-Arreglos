@@ -17,7 +17,7 @@ filas = int(input("Ingrese el número de filas: "))
 columnas = int(input("Ingrese el numero de columnas: "))
 matriz = crear_matriz()
 matriz_llena = llenar_matriz()
-matriz_rotada = np.rot90(matriz_llena)
+matriz_rotada = np.rot90(np.rot90(np.rot90(matriz_llena)))
 print("La matriz original es:")
 for i in matriz_llena:
     print(i)
